@@ -7,10 +7,17 @@ const lengthEl = document.getElementById("length-el")
 const volumeEl = document.getElementById("volume-el")
 const massEl = document.getElementById("mass-el")
 
-// Eventlistener
+// Eventlisteners
 
+//Button
 convertBtn.addEventListener('click', renderDom)
-
+//Input
+inputEl.addEventListener('keypress',function(event){
+  if(event.key === "Enter"){
+    console.log("enter pressed")
+    renderDom()
+  }
+})
 
 // Render function
 function renderDom() {
