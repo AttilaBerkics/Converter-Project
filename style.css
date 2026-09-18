@@ -6,7 +6,7 @@
 
 body{
   font-family: Inter;
-  background-color: #16001E;
+  background-color: #4d0468;
   height: 100Vh;
   display: flex;
   flex-direction: row;
@@ -23,7 +23,7 @@ body{
 
 .head-container{
   height: 285px;
-  background-color: #6943FF;
+  background-color: #9f8fe2;
   color: #fff;
   text-align: center;
   display: flex;
@@ -39,7 +39,7 @@ body{
 
 .head-container input{
   display: block;
-  background-color:#6943FF;
+  background-color:#9f8fe2;
   border: 2px solid #B295FF;
   border-radius: 5px;
   font-size: 58px;
